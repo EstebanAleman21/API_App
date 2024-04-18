@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B907B0B2BD1E72100237CCA /* APIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B907B0A2BD1E72100237CCA /* APIViewModel.swift */; };
+		5B907B0D2BD1E93E00237CCA /* AddSystemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B907B0C2BD1E93E00237CCA /* AddSystemView.swift */; };
 		5BA9B7422BD1E5D500DC80A7 /* APIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9B7412BD1E5D500DC80A7 /* APIApp.swift */; };
 		5BA9B7442BD1E5D500DC80A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9B7432BD1E5D500DC80A7 /* ContentView.swift */; };
 		5BA9B7462BD1E5D600DC80A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA9B7452BD1E5D600DC80A7 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B907B0A2BD1E72100237CCA /* APIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIViewModel.swift; sourceTree = "<group>"; };
+		5B907B0C2BD1E93E00237CCA /* AddSystemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSystemView.swift; sourceTree = "<group>"; };
 		5BA9B73E2BD1E5D500DC80A7 /* API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = API.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA9B7412BD1E5D500DC80A7 /* APIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIApp.swift; sourceTree = "<group>"; };
 		5BA9B7432BD1E5D500DC80A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 			children = (
 				5BA9B7412BD1E5D500DC80A7 /* APIApp.swift */,
 				5BA9B7432BD1E5D500DC80A7 /* ContentView.swift */,
+				5B907B0A2BD1E72100237CCA /* APIViewModel.swift */,
+				5B907B0C2BD1E93E00237CCA /* AddSystemView.swift */,
 				5BA9B7452BD1E5D600DC80A7 /* Assets.xcassets */,
 				5BA9B7472BD1E5D700DC80A7 /* API.entitlements */,
 				5BA9B7482BD1E5D700DC80A7 /* Preview Content */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B907B0B2BD1E72100237CCA /* APIViewModel.swift in Sources */,
 				5BA9B7442BD1E5D500DC80A7 /* ContentView.swift in Sources */,
 				5BA9B7422BD1E5D500DC80A7 /* APIApp.swift in Sources */,
+				5B907B0D2BD1E93E00237CCA /* AddSystemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
