@@ -76,6 +76,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B907B0E2BD1EACF00237CCA /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				5BA9B7432BD1E5D500DC80A7 /* ContentView.swift */,
+				5B907B0C2BD1E93E00237CCA /* AddSystemView.swift */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		5B907B0F2BD1EADE00237CCA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5B907B0A2BD1E72100237CCA /* APIViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		5BA9B7352BD1E5D500DC80A7 = {
 			isa = PBXGroup;
 			children = (
@@ -100,9 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				5BA9B7412BD1E5D500DC80A7 /* APIApp.swift */,
-				5BA9B7432BD1E5D500DC80A7 /* ContentView.swift */,
-				5B907B0A2BD1E72100237CCA /* APIViewModel.swift */,
-				5B907B0C2BD1E93E00237CCA /* AddSystemView.swift */,
+				5B907B0F2BD1EADE00237CCA /* ViewModel */,
+				5B907B0E2BD1EACF00237CCA /* VIew */,
 				5BA9B7452BD1E5D600DC80A7 /* Assets.xcassets */,
 				5BA9B7472BD1E5D700DC80A7 /* API.entitlements */,
 				5BA9B7482BD1E5D700DC80A7 /* Preview Content */,
